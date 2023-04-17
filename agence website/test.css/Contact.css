@@ -1,0 +1,178 @@
+
+*{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+  
+ 
+ }
+ /* ---------START NAV------------ */
+ .nav-cont{
+  
+   background-color: rgb(86, 157, 170);
+   padding-top: 30px;
+   padding-left: 300px;
+   padding-bottom: 10px;
+ }
+ .menu-btn {
+   background-color:rgb(87, 125, 134) ;
+   color: white;
+   padding: 16px;
+   font-size: 20px;
+   font-weight: bolder;
+   font-family: 'Fira Sans', sans-serif;
+ }
+ .dropdown-menu {
+   position: relative;
+   display: inline-block;
+ }
+ .menu-content {
+   display: none;
+   position: absolute;
+   background-color: rgb(86, 157, 170);
+   min-width: 160px;
+   z-index: 1;
+  
+   
+ }
+ .links,.links-hidden{
+   display: inline-block;
+   color: rgb(255, 255, 255);
+   padding: 12px 16px;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: bolder;
+   font-family: 'Fira Sans', sans-serif;
+ }
+ .links-hidden{
+   display: block;
+ }
+ .links{
+   display: inline-block;
+   
+ }
+ .links-hidden:hover,.links:hover {
+   background-color: rgb(0, 43, 91);
+   
+ }
+ .dropdown-menu:hover .menu-content {
+   display: block;
+ }
+ .dropdown-menu:hover .menu-btn {
+   background-color:rgb(0, 43, 91);
+ }
+ /* ---------END NAV------------ */
+ /* -----------------------imag--------------------- */
+ main .sec{
+   width: 100px;
+   height: 100px;
+ }
+ .logo-page{
+   width: 600px;;
+   height: 600px;
+   float: left;
+   padding-left: 20px;
+   position: relative;
+   right: 300px;
+   bottom: 300px;
+ }
+ main {
+   background-color: rgb(185, 237, 221);
+ }
+ 
+ 
+ img{
+     width:600px;
+     height:300px;
+ }
+ 
+ .request {
+  float: left;
+   margin: 20px;
+   padding: 20px;
+   background-color: #B9EDDD;
+   border: 5px solid #87CBB9;
+   border-radius: 50px;
+ }
+ 
+ .request p {
+     font-size: larger;
+ 
+ }
+ 
+ 
+ form.Formulaire {
+ 
+   margin: 20px;
+   padding: 20px;
+   background-color: #B9EDDD;
+   border: 5px solid #87CBB9;
+   border-radius: 50px;
+   position: relative;
+   right: 50px;
+ }
+ 
+ 
+ form.Formulaire label {
+   display: block;
+   margin-bottom: 10px;
+ }
+ 
+ form.Formulaire input[type="text"],
+ form.Formulaire input[type="email"],
+ form.Formulaire input[type="tel"],
+ form.Formulaire textarea {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin-bottom: 20px;
+   resize: none;
+   
+ }
+ 
+ form.Formulaire input[type="submit"] {
+   background-color: #569DAA;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   font-size: 16px;
+ }
+ 
+ form.Formulaire input[type="submit"]:hover {
+   background-color: #577D86;
+ }
+ 
+ form.Formulaire textarea {
+   height: 160px;
+ }
+ 
+ form.Formulaire label{
+     font-size: 20pt;
+ }
+ 
+ form.Formulaire input{
+     font-size: 20pt;
+ }
+ .container{
+   position: relative;
+   bottom: 530px;
+   padding-left: 100px;
+   
+ }
+ fieldset{
+   border:none ;
+ }
+ .p1{
+   margin-bottom: 10px;
+ }
+ .title1{
+   margin-bottom: 10px;
+ }
+ .adress1{
+   margin-bottom: 10px;
+ }
+ 
